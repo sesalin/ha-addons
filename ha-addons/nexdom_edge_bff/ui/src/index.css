@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 59 130 246; /* rgb of #3b82f6 */
+  --radius: 0.75rem;
+  --logo-url: '';
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 px-3 py-2 rounded-skin bg-slate-800 text-white hover:bg-slate-900 transition;
+}
+
+.card {
+  @apply rounded-skin bg-white shadow p-4;
+}
+
